@@ -1,0 +1,16 @@
+html {
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem; /* 1rem = 10px */
+}
+
+.title {
+    text-align: center;
+    font-size: 3.8rem;
+}
+
+.title span {
+    font-size: 2rem;
+}
