@@ -11,6 +11,15 @@
 html {
     font-size: 62.5%;
     box-sizing: border-box; /* Box model sizing */
+    scroll-snap-type: y mandatory;
+}
+
+/* Scroll snap */
+.services,
+.main-nav,
+.contact-form {
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
 }
 
 *, *:before, *:after {
